@@ -1,33 +1,41 @@
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-    ];
+  imports = [
+    # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+  ];
 
- boot = {
-      loader = {
-        efi.canTouchEfiVariables = true;
-        grub = {
-          enable = true;
-          device = "nodev";
-          efiSupport = true;
-        };
+  boot = {
+    loader = {
+      efi.canTouchEfiVariables = true;
+      grub = {
+        enable = true;
+        device = "nodev";
+        efiSupport = true;
       };
-      initrd.luks.devices.cryptroot.device = "/dev/disk/by-label/Encriptado";
     };
+    initrd.luks.devices.cryptroot.device = "/dev/disk/by-label/Encriptado";
+  };
 
   networking.hostName = "duanos-luks"; # Define your hostname.
 
-  security.sudo.extraRules = [{
-	groups = ["wheel"];
-	commands = [
-	  {
-	    command = "ALL";
-	    options = ["NOPASSWD"];
-	  }];
-    }];
+  security.sudo.extraRules = [
+    {
+      groups = [ "wheel" ];
+      commands = [
+        {
+          command = "ALL";
+          options = [ "NOPASSWD" ];
+        }
+      ];
+    }
+  ];
 
   environment.variables = {
     EDITOR = "nvim";
@@ -38,14 +46,14 @@
   };
 
   programs.less.envVariables = {
-    LESS="-R";
-    LESS_TERMCAP_mb="$(printf '%b' '[1;31m')";
-    LESS_TERMCAP_md="$(printf '%b' '[1;36m')";
-    LESS_TERMCAP_me="$(printf '%b' '[0m')";
-    LESS_TERMCAP_so="$(printf '%b' '[01;44;33m')";
-    LESS_TERMCAP_se="$(printf '%b' '[0m')";
-    LESS_TERMCAP_us="$(printf '%b' '[1;32m')";
-    LESS_TERMCAP_ue="$(printf '%b' '[0m')";
+    LESS = "-R";
+    LESS_TERMCAP_mb = "$(printf '%b' '[1;31m')";
+    LESS_TERMCAP_md = "$(printf '%b' '[1;36m')";
+    LESS_TERMCAP_me = "$(printf '%b' '[0m')";
+    LESS_TERMCAP_so = "$(printf '%b' '[01;44;33m')";
+    LESS_TERMCAP_se = "$(printf '%b' '[0m')";
+    LESS_TERMCAP_us = "$(printf '%b' '[1;32m')";
+    LESS_TERMCAP_ue = "$(printf '%b' '[0m')";
   };
 
   # Configure network connections interactively with nmcli or nmtui.
@@ -108,7 +116,7 @@
   ];
 
   fonts.packages = with pkgs; [
-      nerd-fonts.jetbrains-mono
+    nerd-fonts.jetbrains-mono
   ];
 
   nix.settings.experimental-features = [
@@ -147,4 +155,3 @@
   system.stateVersion = "25.11"; # Did you read the comment?
 
 }
-
