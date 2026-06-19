@@ -39,6 +39,31 @@
 
   programs.firefox.enable = true;
   programs.home-manager.enable = true; # enable thyself
+  programs.git = {
+    enable = true;
+    userName = "gomezAgustinVim";
+    userEmail = "niconecrofilo589@gmail.com";
+    aliases = {
+      pu = "push";
+      co = "checkout";
+      cm = "commit";
+      s = "status";
+    };
+    signing = {
+      key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN2s61xEV3fUCNYVI01psi5g+CNFsusWoFi9zBE5lR7A niconecrofilo589@gmail.com"
+      signByDefault = true;
+    };
+    settings = {
+      gpg = {
+        format = "ssh";
+      };
+    };
+  };
+
+  programs.ssh = {
+    enable = true;
+    addKeysToAgent = "yes";
+  };
 
   programs.yazi = {
     enable = true;

@@ -4,7 +4,7 @@
   home.packages = with pkgs; [
     nordic
     papirus-nord
-    nwg-look
+    # nwg-look
   ];
 
   gtk = {
