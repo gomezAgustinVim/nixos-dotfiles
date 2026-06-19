@@ -1,7 +1,5 @@
 [flavor]
 dark = "nord"
-# dark = "dracula"
-# dark = "catppuccin-mocha"
 
 [icon]
 prepend_dirs = [
