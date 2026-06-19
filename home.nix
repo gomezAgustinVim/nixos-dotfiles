@@ -10,6 +10,7 @@
     ./modules/themes/nord.nix
     ./modules/user/shell/zsh.nix
     ./modules/user/yazi/yazi.nix
+    ./modules/user/firefox/firefox.nix
   ];
 
   home.username = "nixtane";
@@ -38,7 +39,6 @@
     fira-code-symbols
   ];
 
-  programs.firefox.enable = true;
   programs.home-manager.enable = true; # enable thyself
   programs.git = {
     enable = true;
