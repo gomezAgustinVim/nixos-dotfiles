@@ -1,0 +1,10 @@
+hl.on("hyprland.start", function()
+	hl.exec_cmd("$HOME/.config/hypr/scripts/portals.sh")
+	hl.exec_cmd("$HOME/.config/hypr/scripts/start-waybar.sh")
+	hl.exec_cmd("dunst")
+	hl.exec_cmd("swaybg -i ~/Imágenes/walls/nord/road-to-samarkand.png")
+	hl.exec_cmd("systemctl --user start hyprpolkitagent")
+	hl.exec_cmd("Thunar --daemon")
+	hl.exec_cmd("hypridle & hyprsunset")
+	hl.exec_cmd("xrdb -load ~/.config/x11/xresources") -- used for nsxiv
+end)

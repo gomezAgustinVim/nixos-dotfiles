@@ -1,0 +1,192 @@
+* {
+  font-weight: bold;
+  min-height: 0;
+  border-radius: 0px;
+  border: none;
+}
+
+window#waybar {
+  /* background: #2e3440; */
+  background: #282828;
+  padding: 3px 0;
+}
+
+window#waybar.hidden {
+  opacity: 0.98;
+}
+
+tooltip {
+  background-color: #282828;
+  border: 2px solid #ebdbb2;
+}
+
+#window,
+#tray,
+#network,
+#wireplumber,
+#battery,
+#backlight,
+#clock,
+#memory,
+#cpu,
+#mpd,
+#workspaces,
+#custom-launcher,
+#custom-bluetooth {
+  font-family: "JetBrainsMono Nerd Font Propo";
+  font-size: 0.8em;
+  color: #689d6a;
+  background: #282828;
+  padding: 3px 7px;
+  border-bottom: 2px solid;
+  /* border-radius: 0.7em; */
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+/* ======================================================== */
+/* workspaces module */
+/* ======================================================== */
+#workspaces {
+  font-weight: bold;
+  background: #282828;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+#workspaces button {
+  color: #eceff4;
+  border-radius: 0.5em;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-right: 1px;
+  margin-left: 1px;
+  min-width: 1.2em;
+  padding: 0 2px;
+}
+
+#workspaces button:hover {
+  background: #4c566a;
+}
+
+#workspaces button.active {
+  background: #a3be8c;
+  color: #2e3440;
+}
+
+#workspaces button.urgent {
+  background: #bf616a;
+}
+
+/* ======================================================== */
+/* window */
+/* ======================================================== */
+#window {
+  color: #282828;
+  background: #83a598;
+  border-radius: 0.5em;
+  border-bottom-color: #5a8b8c;
+}
+
+window#waybar.empty #window {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: transparent;
+  border-bottom: none;
+}
+
+/* ======================================================== */
+/* Network module */
+/* ======================================================== */
+#network {
+  color: #fe8019;
+  border-bottom-color: #fe8019;
+}
+
+#network.disconnected {
+  color: #cc241d;
+  border-bottom-color: #cc241d;
+}
+
+/* ======================================================== */
+/* Audio module */
+/* ======================================================== */
+#wireplumber {
+  color: #81a1c1;
+}
+
+#wireplumber.muted {
+  color: #d08770;
+}
+
+/* ======================================================== */
+/* backlight */
+/* ======================================================== */
+#backlight {
+  color: #ebcb8b;
+  /* border-bottom-color: #d8a657; */
+}
+
+/* ======================================================== */
+/* battery */
+/* ======================================================== */
+#battery {
+  color: #5e81ac;
+  /* border-bottom-color: #98971a; */
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #a3be8c;
+}
+
+#battery.critical:not(.charging) {
+  color: #bf616a;
+}
+
+/* ======================================================== */
+/* clock */
+/* ======================================================== */
+#clock {
+  color: #8fbcbb;
+}
+
+/* ======================================================== */
+/* tray */
+/* ======================================================== */
+#tray {
+  color: #e5e9f0;
+}
+
+/* ======================================================== */
+/* custom-bluetooth */
+/* ======================================================== */
+#custom-bluetooth {
+  color: #458588;
+  border-bottom-color: #458588;
+}
+
+/* ======================================================== */
+/* Media player */
+/* ======================================================== */
+#mpd {
+  color: #b48ead;
+}
+
+/* ======================================================== */
+/* global hover config */
+/* ======================================================== */
+#network:hover,
+#wireplumber:hover,
+#wireplumber.muted:hover,
+#battery:hover,
+#backlight:hover,
+#clock:hover,
+#memory:hover,
+#mpd:hover,
+#cpu:hover {
+  color: #d8dee9;
+}
