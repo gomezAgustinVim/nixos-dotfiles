@@ -50,7 +50,9 @@
       s = "status";
     };
     signing = {
-      key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN2s61xEV3fUCNYVI01psi5g+CNFsusWoFi9zBE5lR7A niconecrofilo589@gmail.com"
+      key = "ssh-ed25519
+          AAAAC3NzaC1lZDI1NTE5AAAAIN2s61xEV3fUCNYVI01psi5g+CNFsusWoFi9zBE5lR7A
+          niconecrofilo589@gmail.com";
       signByDefault = true;
     };
     settings = {
