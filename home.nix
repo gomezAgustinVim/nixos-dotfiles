@@ -8,9 +8,12 @@
 {
   imports = [
     ./modules/themes/nord.nix
-    ./modules/user/shell/zsh.nix
-    ./modules/user/yazi/yazi.nix
-    ./modules/user/firefox/firefox.nix
+    ./modules/shell/zsh.nix
+    ./modules/yazi/yazi.nix
+    ./modules/firefox/firefox.nix
+    ./modules/foot/foot.ini
+    ./modules/gpg/gpg.nix
+    ./modules/rofi/rofi.nix
   ];
 
   home.username = "nixtane";
@@ -27,6 +30,7 @@
     networkmanagerapplet
     hypridle
     firefox
+    gnupg
     fzf
     rofi
     gcc
@@ -69,9 +73,7 @@
   };
 
   home.file.".config/hypr".source = ./config/hypr;
-  home.file.".config/foot".source = ./config/foot;
   home.file.".config/nvim".source = ./config/nvim;
-  home.file.".config/rofi".source = ./config/rofi;
   home.file.".config/waybar".source = ./config/waybar;
 
 }
