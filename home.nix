@@ -9,6 +9,7 @@
   imports = [
     ./modules/themes/nord.nix
     ./modules/user/shell/zsh.nix
+    ./modules/user/yazi/yazi.nix
   ];
 
   home.username = "nixtane";
@@ -67,15 +68,9 @@
     addKeysToAgent = "yes";
   };
 
-  programs.yazi = {
-    enable = true;
-    enableZshIntegration = true;
-  };
-
   home.file.".config/hypr".source = ./config/hypr;
   home.file.".config/foot".source = ./config/foot;
   home.file.".config/nvim".source = ./config/nvim;
-  home.file.".config/yazi".source = ./config/yazi;
   home.file.".config/rofi".source = ./config/rofi;
   home.file.".config/waybar".source = ./config/waybar;
 
