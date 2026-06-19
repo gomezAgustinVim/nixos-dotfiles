@@ -11,7 +11,7 @@
     ./modules/shell/zsh.nix
     ./modules/yazi/yazi.nix
     ./modules/firefox/firefox.nix
-    ./modules/foot/foot.ini
+    ./modules/foot/foot.nix
     ./modules/gpg/gpg.nix
     ./modules/rofi/rofi.nix
   ];
@@ -29,7 +29,6 @@
     blueman
     networkmanagerapplet
     hypridle
-    firefox
     gnupg
     fzf
     rofi
@@ -39,7 +38,7 @@
     noto-fonts
     noto-fonts-cjk-sans
     noto-fonts-color-emoji
-    fira-code
+    nerd-fonts.fira-code
     fira-code-symbols
   ];
 

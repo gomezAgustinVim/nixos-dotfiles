@@ -12,8 +12,8 @@
     settings = {
       main = {
         dpi-aware = "yes";
-        font = "JetBrainsMono Nerdfont size:12";
-        pad = "12x12";
+        font = "FiraCode Nerd Font Propo:size=11";
+        pad = "8x8";
         initial-window-size-chars = "190x60";
 
         app-id = "foot";

@@ -8,19 +8,21 @@
 {
   programs.firefox = {
     enable = true;
+
     languagePacks = [
       "es-AR"
       "ja-JP"
       "en-US"
     ];
+
     profiles.duan = {
 
-      extensions = with pkgs.nur.repos.rycee.firefox-addons; [
-        ublock-origin
-        darkreader
-        yomitan
-        keepassxc
-      ];
+      extensions = {
+        packages = with pkgs.nur.repos.rycee.firefox-addons; [
+          ublock-origin
+          darkreader
+        ];
+      };
 
       # privacy settings
       settings = {
@@ -40,6 +42,7 @@
         "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
         "browser.toolbars.bookmarks.visibility" = "never";
         "geo.enabled" = false;
+        "extensions.autoDisableScopes" = 0; # automatically enable extensions
 
         # Disable telemetry
         "browser.newtabpage.activity-stream.feeds.telemetry" = false;
