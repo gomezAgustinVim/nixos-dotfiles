@@ -30,6 +30,7 @@
     networkmanagerapplet
     hypridle
     gnupg
+    tmux
     fzf
     rofi
     gcc
@@ -43,6 +44,7 @@
   ];
 
   programs.home-manager.enable = true; # enable thyself
+  programs.tmux.enable = true;
   programs.git = {
     enable = true;
     userName = "gomezAgustinVim";
