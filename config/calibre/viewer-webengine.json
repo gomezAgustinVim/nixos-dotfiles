@@ -1,0 +1,177 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 768,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": true,
+    "geometry": {
+      "height": 768,
+      "width": 1366,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 720,
+      "width": 671,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABVUAAAL/AAAAAAAAAAAAAAKeAAACzwAAAAACBAAABVYAAAAAAAAAAAAABVUAAAL/"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x0A23",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "local_storage": {
+    "search-bar-history-search-for-sc": [
+      "ctrl+d"
+    ]
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAFXAAAC0PwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAALQAAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAChAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAAFVgAAAwAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "base_font_size": 22,
+    "controls_help_shown_count": 1,
+    "controls_help_shown_count_rtl_page_progression": 2,
+    "current_color_scheme": "system",
+    "keyboard_shortcuts": {
+      "left": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "h",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "next_match": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "F3",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "Enter",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "n",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "previous_match": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "F3",
+          "metaKey": false,
+          "shiftKey": true
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "Enter",
+          "metaKey": false,
+          "shiftKey": true
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "n",
+          "metaKey": false,
+          "shiftKey": true
+        }
+      ],
+      "right": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "l",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "toggle_toc": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "Tab",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ]
+    },
+    "standalone_font_settings": {
+      "mono_family": "Roboto Condensed Medium",
+      "sans_family": "Liberation Sans",
+      "serif_family": "Libertinus Serif",
+      "standard_font": "sans"
+    },
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Haruki Murakami"
+        ],
+        "key": "/home/utane/Documentos/Libros/Calibre-Biblioteca/Haruki Murakami/Kafka on the Shore (7)/Kafka on the Shore - Haruki Murakami.epub",
+        "pathtoebook": "/home/utane/Documentos/Libros/Calibre-Biblioteca/Haruki Murakami/Kafka on the Shore (7)/Kafka on the Shore - Haruki Murakami.epub",
+        "timestamp": "2026-05-26T20:01:18.350Z",
+        "title": "Kafka on the Shore"
+      },
+      {
+        "authors": [
+          "村上春樹"
+        ],
+        "key": "/home/utane/Documentos/Libros/Calibre-Biblioteca/Cun Shang Chun Shu/noruueinoSen  (Jiang Tan She Wen Ku ) (5)/noruueinoSen  (Jiang Tan She Wen Ku ) - Cun Shang Chun Shu.epub",
+        "pathtoebook": "/home/utane/Documentos/Libros/Calibre-Biblioteca/Cun Shang Chun Shu/noruueinoSen  (Jiang Tan She Wen Ku ) (5)/noruueinoSen  (Jiang Tan She Wen Ku ) - Cun Shang Chun Shu.epub",
+        "timestamp": "2026-05-26T20:01:13.284Z",
+        "title": "ノルウェイの森 (講談社文庫)"
+      }
+    ],
+    "user_stylesheet": ""
+  }
+}

@@ -1,0 +1,22 @@
+sw_volume: 100
+audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:Visualizer feed
+state: stop
+current: 0
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Nuevas/1993 - Terminal, Mundo Social/101 - Crematorio - Introducción A La Última Enfermedad.mp3
+1:Nuevas/1993 - Terminal, Mundo Social/102 - Crematorio - La Raza Del Miedo.mp3
+2:Nuevas/1993 - Terminal, Mundo Social/103 - Crematorio - Sistema De Explotación Organizado.mp3
+3:Nuevas/1993 - Terminal, Mundo Social/104 - Crematorio - Sick Family Fucked.mp3
+4:Nuevas/1993 - Terminal, Mundo Social/105 - Crematorio - La Mierda En El Espejo.mp3
+5:Nuevas/1993 - Terminal, Mundo Social/106 - Crematorio - El Odio Mas Miserable.mp3
+6:Nuevas/1993 - Terminal, Mundo Social/107 - Crematorio - Alteración Mental.mp3
+playlist_end

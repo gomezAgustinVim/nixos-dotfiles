@@ -1,0 +1,321 @@
+{
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "bookshelf view visible": false,
+  "color_palette": "dark",
+  "cover_grid_background": {
+    "dark": [
+      45,
+      45,
+      45
+    ],
+    "dark_texture": null,
+    "light": [
+      80,
+      80,
+      80
+    ],
+    "light_texture": null,
+    "migrated": true
+  },
+  "dark_palette_name": "__current__",
+  "dark_palettes": {
+    "__current__": {
+      "Accent": "#7abc43",
+      "AlternateBase": "#282a36",
+      "Base": "#282a36",
+      "BrightText": "#ff0000",
+      "BrightText-disabled": "#ff0000",
+      "Button": "#282a36",
+      "ButtonText": "#f8f8f2",
+      "ButtonText-disabled": "#282a36",
+      "Highlight": "#6272a4",
+      "HighlightedText": "#f8f8f2",
+      "HighlightedText-disabled": "#282a36",
+      "Link": "#8be9fd",
+      "LinkVisited": "#ff79c6",
+      "PlaceholderText": "#282a36",
+      "PlaceholderText-disabled": "#282a36",
+      "Text": "#f8f8f2",
+      "Text-disabled": "#282a36",
+      "ToolTipBase": "#282a36",
+      "ToolTipText": "#f8f8f2",
+      "ToolTipText-disabled": "#f8f8f2",
+      "Window": "#282a36",
+      "WindowText": "#f8f8f2",
+      "WindowText-disabled": "#f8f8f2"
+    }
+  },
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 720,
+      "width": 1352,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 1352,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 720,
+      "width": 1352,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABUcAAALPAAAAAAAAAAAAAAVHAAACzwAAAAACAAAABVYAAAAAAAAAAAAABUcAAALP"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x0A23",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-choose-icon-theme-dialog-geometry": {
+    "frame_geometry": {
+      "height": 693,
+      "width": 900,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 693,
+      "width": 900,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 693,
+      "width": 900,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA4MAAAK0AAAAAAAAAAAAAAODAAACtAAAAAACAAAABVYAAAAAAAAAAAAAA4MAAAK0"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x0A23",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-customize-palette-geometry": {
+    "frame_geometry": {
+      "height": 640,
+      "width": 826,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 640,
+      "width": 826,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 640,
+      "width": 826,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAAzkAAAJ/AAAAAAAAAAAAAAM5AAACfwAAAAACAAAABVYAAAAAAAAAAAAAAzkAAAJ/"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x0A23",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 677,
+      "width": 1166,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 677,
+      "width": 1166,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 701,
+      "width": 1083,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAABI0AAAKkAAAAAAAAAAAAAAQ6AAACvAAAAAACAAAABVYAAAAAAAAAAAAABI0AAAKk"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x0A23",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 768,
+        "width": 1366
+      },
+      "virtual_geometry": {
+        "height": 768,
+        "width": 1366,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "grid view visible": false,
+  "library_usage_stats": {
+    "/home/utane/Documentos/Libros/Calibre-Biblioteca": 4
+  },
+  "light_palette_name": "",
+  "light_palettes": {
+    "__current__": {
+      "Accent": "#31bd5a",
+      "AlternateBase": "#f5f5f5",
+      "Base": "#ffffff",
+      "BrightText": "#ff0000",
+      "BrightText-disabled": "#ff0000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "ButtonText-disabled": "#787878",
+      "Highlight": "#308cc6",
+      "HighlightedText": "#ffffff",
+      "HighlightedText-disabled": "#787878",
+      "Link": "#0000ff",
+      "LinkVisited": "#ff00ff",
+      "PlaceholderText": "#787878",
+      "PlaceholderText-disabled": "#787878",
+      "Text": "#000000",
+      "Text-disabled": "#787878",
+      "ToolTipBase": "#ffffdc",
+      "ToolTipText": "#000000",
+      "ToolTipText-disabled": "#000000",
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "WindowText-disabled": "#000000"
+    }
+  },
+  "main_window_central_widget_state": {
+    "layout": "wide",
+    "narrow_desires": {
+      "book_details_height": 0.23059866962305986,
+      "cover_browser_width": 0.34980988593155893,
+      "quick_view_height": 0.25609756097560976,
+      "tag_browser_width": 0.24968314321926488
+    },
+    "narrow_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    },
+    "wide_desires": {
+      "book_details_width": 0.2997465145754119,
+      "cover_browser_height": 0.28600823045267487,
+      "quick_view_height": 0.23765432098765432,
+      "tag_browser_width": 0.2997465145754119
+    },
+    "wide_visibility": {
+      "book_details": true,
+      "book_list": true,
+      "cover_browser": false,
+      "quick_view": false,
+      "tag_browser": true
+    }
+  },
+  "quick_start_guide_added": true,
+  "qv_open_at_shutdown": false,
+  "search bar visible": true,
+  "tag browser search box visible": false,
+  "toolbar_icon_size": "mid-small"
+}
