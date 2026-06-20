@@ -1,6 +1,6 @@
 hl.monitor({
 	output = "",
-	mode = "1366x768@60hz",
+	mode = "preferred",
 	position = "auto",
 	scale = "1",
 })
@@ -27,10 +27,11 @@ require("modules/input")
 require("modules/binds")
 require("modules/windows")
 
-hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
-hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
-hl.env("XCURSOR_SIZE", "18")
-hl.env("HYPRCURSOR_SIZE", "18")
+-- hl.env("GTK_THEME", "Adapta-Nokto-Eta")
+-- hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
+-- hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
+-- hl.env("XCURSOR_SIZE", "18")
+-- hl.env("HYPRCURSOR_SIZE", "18")
 
 hl.env("TZ", "America/Argentina/Buenos_Aires") -- i hate this shi but ah gotta do it
 

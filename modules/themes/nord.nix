@@ -4,7 +4,6 @@
   home.packages = with pkgs; [
     nordic
     papirus-nord
-    # nwg-look
   ];
 
   gtk = {
@@ -12,9 +11,8 @@
     theme.name = "Nordic-darker";
     iconTheme.name = "Papirus-Dark";
     cursorTheme = {
-      name = "Nordic";
-      package = pkgs.nordic;
-      size = 24;
+      name = "Nordic-cursors";
+      size = 20;
     };
   };
 
@@ -23,7 +21,7 @@
     gtk-theme-name=Nordic-darker
     gtk-icon-theme-name=Papirus-Dark
     gtk-cursor-theme-name=Nordic-cursors
-    gtk-cursor-theme-size=24
+    gtk-cursor-theme-size=20
   '';
 
   xdg.configFile."gtk-4.0/settings.ini".text = ''
@@ -31,11 +29,11 @@
     gtk-theme-name=Nordic-darker
     gtk-icon-theme-name=Papirus-Dark
     gtk-cursor-theme-name=Nordic-cursors
-    gtk-cursor-theme-size=24
+    gtk-cursor-theme-size=20
   '';
 
   home.sessionVariables = {
-    XCURSOR_THEME = "Nordic-darker";
-    XCURSOR_SIZE = "24";
+    XCURSOR_THEME = "Nordic-cursors";
+    XCURSOR_SIZE = "20";
   };
 }

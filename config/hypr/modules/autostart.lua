@@ -1,4 +1,6 @@
 hl.on("hyprland.start", function()
+	hl.exec_cmd("dbus-update-activation-environment --all")
+	hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
 	hl.exec_cmd("$HOME/.config/hypr/scripts/portals.sh")
 	hl.exec_cmd("$HOME/.config/hypr/scripts/start-waybar.sh")
 	hl.exec_cmd("dunst")
@@ -6,5 +8,6 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("systemctl --user start hyprpolkitagent")
 	hl.exec_cmd("Thunar --daemon")
 	hl.exec_cmd("hypridle & hyprsunset")
-	hl.exec_cmd("xrdb -load ~/.config/x11/xresources") -- used for nsxiv
+	-- hl.exec_cmd("fcitx5 -dr")
+	-- hl.exec_cmd("xrdb -load ~/.config/x11/xresources") -- used for nsxiv
 end)
