@@ -12,7 +12,7 @@
     settings = {
       main = {
         dpi-aware = "yes";
-        font = "FiraCode Nerd Font Propo:size=11";
+        font = "FiraCode Nerd Font Propo:size=12";
         pad = "8x8";
         initial-window-size-chars = "190x60";
 
