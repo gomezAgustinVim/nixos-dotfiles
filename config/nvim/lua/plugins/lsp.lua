@@ -59,13 +59,6 @@ local function lsp_on_attach(ev)
 		{ desc = "Rename variable", noremap = true, silent = true, buffer = bufnr }
 	)
 
-	-- vim.keymap.set(
-	-- 	"n",
-	-- 	"<leader>la",
-	-- 	vim.lsp.buf.code_action,
-	-- 	{ desc = "Code actions", noremap = true, silent = true, buffer = bufnr }
-	-- )
-
 	vim.keymap.set("n", "K", vim.lsp.buf.hover, { noremap = true, silent = true, buffer = bufnr })
 
 	vim.keymap.set(
@@ -116,14 +109,12 @@ vim.lsp.config("markdown_oxide", {})
 vim.lsp.config("ts_ls", {})
 vim.lsp.config("bashls", {})
 vim.lsp.config("tinymist", {})
-vim.lsp.config("prismals", {})
 vim.lsp.config("clangd", {})
 
 vim.lsp.enable({
 	"lua_ls",
 	"ts_ls",
 	"bashls",
-	"prismals",
 	"clangd",
 	"tinymist",
 	"markdown_oxide",

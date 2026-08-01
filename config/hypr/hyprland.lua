@@ -7,7 +7,7 @@ hl.monitor({
 
 hl.config({
 	animations = {
-		enabled = false,
+		enabled = true,
 	},
 })
 
@@ -27,11 +27,10 @@ require("modules/input")
 require("modules/binds")
 require("modules/windows")
 
--- hl.env("GTK_THEME", "Adapta-Nokto-Eta")
--- hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
--- hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
--- hl.env("XCURSOR_SIZE", "18")
--- hl.env("HYPRCURSOR_SIZE", "18")
+hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
+hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
+hl.env("XCURSOR_SIZE", "18")
+hl.env("HYPRCURSOR_SIZE", "18")
 
 hl.env("TZ", "America/Argentina/Buenos_Aires") -- i hate this shi but ah gotta do it
 
@@ -47,13 +46,11 @@ hl.env("QT_AUTO_SCREEN_SCALE_FACTOR", "1")
 hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1")
 hl.env("QT_IM_MODULES", "wayland;fcitx")
 hl.env("MOZ_ENABLE_WAYLAND", "1")
--- hl.env("GTK_IM_MODULE", "wayland,fcitx5")
 hl.env("GDK_SCALE", "1")
 hl.env("GDK_BACKEND", "wayland,x11,*")
 hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
 
 local suppressMaximizeRule = hl.window_rule({
-	-- Ignore maximize requests from all apps. You'll probably like this.
 	name = "suppress-maximize-events",
 	match = { class = ".*" },
 

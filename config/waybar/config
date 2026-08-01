@@ -3,7 +3,7 @@
       "~/.config/waybar/modules.json"
   ],
   "layer": "top",
-  "output": ["HDMI-A-1", "eDP-1", "Virtual-1"],
+  "output": ["HDMI-A-1", "eDP-1"],
   "spacing": 0,
   "height": 0,
   // "margin-top": 4,

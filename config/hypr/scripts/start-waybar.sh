@@ -3,7 +3,7 @@
 # wait for xdg-desktop-portal-hyprland to start
 until pgrep -f 'xdg-desktop-portal-hyprland'; do sleep 2; done
 
-kill $(pidof waybar)
+killall -9 waybar
 while pgrep -u $UID -x waybar >/dev/null; do sleep 1; done
 waybar &
 

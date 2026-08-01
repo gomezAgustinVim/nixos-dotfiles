@@ -73,7 +73,7 @@
 
     ### Wayland ###
 
-    force_xwayland = true
+    force_xwayland = false
 
     ### Legacy
 

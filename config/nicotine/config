@@ -25,7 +25,7 @@ incompletedir = ${NICOTINE_DATA_HOME}/incomplete
 downloaddir = /home/utane/Música/Nuevas
 uploaddir = ${NICOTINE_DATA_HOME}/received
 usernamesubfolders = False
-shared = [('Touhou-Project-Collection', '/home/utane/Escritorio/Cosas agus/Myrient-Erista/Touhou-Project-Collection'), ('dl-music', '/home/utane/Música/dl-music'), ('Homestuck', '/home/utane/Música/Homestuck'), ('Frank Zappa', '/home/utane/Música/Frank Zappa'), ('Genesis', '/home/utane/Música/Misc/Genesis')]
+shared = [('Touhou-Music', '/home/utane/Música/Touhou-Music')]
 buddyshared = []
 trustedshared = []
 uploadbandwidth = 50
@@ -110,7 +110,7 @@ rooms = []
 
 [privatechat]
 store = True
-users = ['adrock646']
+users = ['StateOfOregon0214']
 
 [columns]
 file_search = {'user': {'visible': True, 'width': 200}, 'country': {'visible': True, 'width': 30}, 'speed': {'visible': True, 'width': 120}, 'in_queue': {'visible': True, 'width': 110}, 'folder': {'visible': True, 'width': 381}, 'file_type': {'visible': True, 'width': 40}, 'filename': {'visible': True, 'width': 463}, 'size': {'visible': True, 'width': 180}, 'quality': {'visible': True, 'width': 150}, 'length': {'visible': True, 'width': 102}}
@@ -125,7 +125,7 @@ expand_searches = False
 group_searches = folder_grouping
 maxresults = 300
 enable_history = True
-history = ['castlevania circle of the moon', 'daimon greece esoteric h', 'daimon greece', 'bethel northern supremacy', 'castlevania harmony of dissonance', 'sodom in the sign of evil', 'old funeral', 'crematorio terminal', 'kikuchi sevilla breeze', 'perfume game', 'perfume', 'advantage lucy', 'bloodlord Serenaden der Wälder', 'bloodlord', 'gnome under the black moon', 'um jammer lammy', 'cibo matto cibo matto', 'cibo matto', 'grausamkeit hellgoat', 'capsule', 'sepultura', 'entre la basura combatiendo al capital', 'grausamkeit black thorns of evil', 'grausamkeit', 'castlevania aria of sorrow', 'minutes to midnight', 'What i ve done', 'park', 'Linkin Park', 'linkin park', 'luca prodan', 'sumo fiebre', 'king crimson', 'babasonicos', 'sumo corpiños', 'sumo llegando los monos', 'sumo after chabon', 'sumo', 'friedhof victim of illusion', 'nagisa cosmetic', 'kino', 'la maquina de hacer pajaros', 'la bella epoca', 'rock de las heridas', 'rock de la heridas', 'bronca buenos aires', 'nirvana', 'omega tribe crystal night', 'omega tribe ipanema rain', 'tommy february6']
+history = ['morkesis', 'bôa', 'weezer pinkerton', 'weezer', 'around the fur', 'deftones', 'the smiths', 'spoochy spoochy', 'entre la basura', 'akiko yano', 'akiko yanno', 'mami koyama', 'kumi miyasato', 'castlevania circle of the moon', 'daimon greece esoteric h', 'daimon greece', 'bethel northern supremacy', 'castlevania harmony of dissonance', 'sodom in the sign of evil', 'old funeral', 'crematorio terminal', 'kikuchi sevilla breeze', 'perfume game', 'perfume', 'advantage lucy', 'bloodlord Serenaden der Wälder', 'bloodlord', 'gnome under the black moon', 'um jammer lammy', 'cibo matto cibo matto', 'cibo matto', 'grausamkeit hellgoat', 'capsule', 'sepultura', 'entre la basura combatiendo al capital', 'grausamkeit black thorns of evil', 'grausamkeit', 'castlevania aria of sorrow', 'minutes to midnight', 'What i ve done', 'park', 'Linkin Park', 'linkin park', 'luca prodan', 'sumo fiebre', 'king crimson', 'babasonicos', 'sumo corpiños', 'sumo llegando los monos', 'sumo after chabon', 'sumo', 'friedhof victim of illusion', 'nagisa cosmetic', 'kino', 'la maquina de hacer pajaros', 'la bella epoca', 'rock de las heridas', 'rock de la heridas', 'bronca buenos aires', 'nirvana', 'omega tribe crystal night', 'omega tribe ipanema rain', 'tommy february6']
 enablefilters = False
 filters_visible = True
 defilter = ['', '', '', '', False, '', '', '']
@@ -133,7 +133,7 @@ filtercc = []
 filterin = ['cibo matto']
 filterout = []
 filtersize = []
-filterbr = ['=320', '>320', '>=320', '!0']
+filterbr = ['>320', '=320', '!0', '>=320']
 filtertype = ['audio', 'audio image', 'audio image text']
 filterlength = []
 search_results = True
@@ -232,10 +232,10 @@ youtube_info = {'api_key': '', 'color': 'Local', 'format': ['* Title: %title%', 
 
 [statistics]
 since_timestamp = 1774725849
-started_downloads = 7716
-completed_downloads = 886
-downloaded_size = 13390219360
-started_uploads = 14
-completed_uploads = 14
-uploaded_size = 138977222
+started_downloads = 7880
+completed_downloads = 1049
+downloaded_size = 16900425021
+started_uploads = 15
+completed_uploads = 15
+uploaded_size = 146563585
 

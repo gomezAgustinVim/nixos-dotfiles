@@ -18,7 +18,7 @@
         "format": "{:%H:%M}",
         "format-alt": "{:%d/%m/%Y}",
         "timezone": "America/Argentina/Buenos_Aires",
-        "on-click-right": "foot -e calcure",
+        "on-click-right": "footclient -e calcure",
         "tooltip": true,
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
@@ -81,7 +81,7 @@
         "format-stopped": "{consumeIcon} Detenido ",
         "interval": 10,
         "on-click": "mpc toggle",
-        "on-click-right": "foot -- ncmpcpp",
+        "on-click-right": "footclient -- ncmpcpp",
         "on-scroll-up": "mpc seek +3",
         "on-scroll-down": "mpc seek -3",
         "artist-len": 20,
@@ -121,7 +121,7 @@
     },
     "cpu": {
         "format": " {usage}%",
-        "on-click": "foot -- htop",
+        "on-click": "footclient -- htop",
         "tooltip": true
     },
     "tray": {
